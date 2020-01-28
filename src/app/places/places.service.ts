@@ -1,30 +1,31 @@
-import { Injectable } from "@angular/core";
-import { Place } from "./place.model";
+import { Injectable } from '@angular/core';
+
+import { Place } from './place.model';
 
 @Injectable({
-  providedIn: "root"
+  providedIn: 'root'
 })
 export class PlacesService {
   private _places: Place[] = [
     new Place(
-      "p1",
-      "Manhattan Mansion",
-      "In the heart of New York City",
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fny.curbed.com%2F2019%2F8%2F22%2F20805861%2Fnyc-moving-tips-renting-buying-homes-neighborhood&psig=AOvVaw1lrgSMchTzu7DRo_m86FiM&ust=1580335576926000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJinw_imp-cCFQAAAAAdAAAAABAD",
+      'p1',
+      'Manhattan Mansion',
+      'In the heart of New York City.',
+      'https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200',
       149.99
     ),
     new Place(
-      "p2",
+      'p2',
       "L'Amour Toujours",
-      "A romantic place in Paris!",
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.archdaily.com%2F922278%2F23-places-in-paris-every-architect-must-visit&psig=AOvVaw2lLD6OLIXLkfSztBPHOwlI&ust=1580335660987000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMC-q6Gnp-cCFQAAAAAdAAAAABAD",
+      'A romantic place in Paris!',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Night.jpg/1024px-Paris_Night.jpg',
       189.99
     ),
     new Place(
-      "p3",
-      "The Foggy Palace",
-      "Not your average city trip!",
-      "https://image.shutterstock.com/image-photo/foggy-castle-260nw-124264360.jpg",
+      'p3',
+      'The Foggy Palace',
+      'Not your average city trip!',
+      'https://upload.wikimedia.org/wikipedia/commons/0/01/San_Francisco_with_two_bridges_and_the_fog.jpg',
       99.99
     )
   ];
