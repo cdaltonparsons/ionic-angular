@@ -17,6 +17,6 @@ import { CreateBookingComponent } from '../../../bookings/create-booking/create-
     PlaceDetailPageRoutingModule
   ],
   declarations: [PlaceDetailPage, CreateBookingComponent],
-  entryComponents:[CreateBookingComponent]
+  entryComponents: [CreateBookingComponent]
 })
 export class PlaceDetailPageModule {}
